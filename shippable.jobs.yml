@@ -11,3 +11,9 @@ jobs:
       - IN: manifest-job
       - IN: version-resource
 
+ - name: release-job-to-test-job-with-large-names-and-so-on
+    type: release
+    bump: final
+    steps:
+      - IN: manifest-job
+      - IN: version-resource
