@@ -4,7 +4,7 @@ jobs:
     steps:
       - IN: box-nginx-1
       
-  - name: release-job-to-test-job-with-large-names-and-so-on
+  - name: release-job-to-testaarch_64_Ubuntu_16_04_prep_repo_job-with-large-names-and-so-on
     type: release
     bump: final
     steps:
