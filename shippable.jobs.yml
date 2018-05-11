@@ -10,3 +10,9 @@ jobs:
     steps:
       - IN: manifest-job
       - IN: version-resource
+ 
+  - name: job_1
+    type: runSh
+    steps:
+      - TASK:
+        - script: shipctl post_resource_state job_1 versionName "hehehhohopopohehepop_ophehhepopop-hehe-hepopopohehepopophehehepopopopopoheihee"
